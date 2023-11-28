@@ -5,13 +5,22 @@ import { RootModule } from '../../app/root.module';
 import { HeaderComponent } from './app/header/header.component';
 import { HeaderNavbarWrapperComponent } from './app/header-nav-wrapper/header-navbar-wrapper.component';
 import { HomeNewsComponent } from './app/home-page/home-news/home-news.component';
-import { NavbarComponent } from './app/navbar/navbar.component';
+/**
+import { NavbarModule } from '../../app/navbar/navbar.module';
+import { NavbarModule } from './app/navbar/navbar.module';
+ */
+import { NavbarComponent } from '../../app/navbar/navbar.component';
+import { BrowseByComponent } from '../../app/shared/browse-by/browse-by.component';
+import { ResultsBackButtonComponent } from '../../app/shared/results-back-button/results-back-button.component';
+/**
+import { FooterComponent } from './app/footer/footer.component';
+ */
 
 /**
  * Add components that use a custom decorator to ENTRY_COMPONENTS as well as DECLARATIONS.
  * This will ensure that decorator gets picked up when the app loads
  */
-const ENTRY_COMPONENTS = [];
+ const ENTRY_COMPONENTS = [];
 
 const DECLARATIONS = [
   ...ENTRY_COMPONENTS,
@@ -24,6 +33,7 @@ const DECLARATIONS = [
 @NgModule({
   imports: [
     CommonModule,
+    /* FooterComponent, */
     RootModule,
     ...DECLARATIONS,
   ],
