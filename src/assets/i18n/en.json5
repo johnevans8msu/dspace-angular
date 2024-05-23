@@ -5367,4 +5367,14 @@
   "process.overview.unknown.user": "Unknown",
 
   "browse.search-form.placeholder": "Search the repository",
+  "search.filters.applied.f.department": "Department",
+  "search.filters.filter.department.head": "Department",
+  "search.filters.filter.department.placeholder": "Department",
+  "search.filters.filter.department.label": "Department",
+
+  "search.filters.applied.f.typeofitem": "Type",
+  "search.filters.filter.typeofitem.head": "Type",
+  "search.filters.filter.typeofitem.placeholder": "Type",
+  "search.filters.filter.typeofitem.label": "Type",
+
 }
