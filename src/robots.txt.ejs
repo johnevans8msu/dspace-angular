@@ -19,6 +19,11 @@ Disallow: /workflowitems
 # Crawlers should be able to access entity pages, but not the facet search links present on entity pages
 Disallow: /entities/*?f
 
+# /xmlui was in scholarworks/dspace-6.  We map old URIs containing this path component
+# to the new path (without /xmlui), but since it is no longer part of the handle path,
+# bots/crawlers should not try in index those paths.
+Disallow: /xmlui
+
 # Optionally uncomment the following line ONLY if sitemaps are working
 # and you have verified that your site is being indexed correctly.
 # Disallow: /browse/*
@@ -151,3 +156,5 @@ Disallow: /
 # http://www.webreaper.net/
 User-agent: WebReaper
 Disallow: /
+
+Crawl-delay: 10
