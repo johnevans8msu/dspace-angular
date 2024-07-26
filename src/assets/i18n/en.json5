@@ -6739,4 +6739,12 @@
   "item.page.cc.license.disclaimer": "Except where otherwised noted, this item's license is described as",
 
   "browse.search-form.placeholder": "Search the repository",
+
+  "search.filters.filter.department.head": "Department",
+
+  "search.filters.filter.department.label": "Department",
+
+  "search.filters.filter.typeofitem.head": "Type",
+
+  "search.filters.filter.typeofitem.label": "Type",
 }
